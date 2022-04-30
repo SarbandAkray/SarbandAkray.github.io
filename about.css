@@ -1,0 +1,189 @@
+/* main content start */
+
+body{
+    background-color: black !important;
+    color:white !important;
+    margin-bottom:  75px !important;
+    overflow-x:hidden;
+}
+/* navbar style */
+.navigation{
+    width: 98vw;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.navBox {
+    position: sticky;
+    top: 0;
+    animation: fadein ease-in 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBox a {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: italic;
+    color: white !important;
+}
+
+.navbutton{
+    background: none;
+    border: none;
+    position: relative;
+    margin-right: 5px;
+}
+
+.navbutton:focus{
+   outline: none;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+  
+/* end navbar */
+
+/* soical box */
+.socialbox{
+    margin-top: 50px;
+    width: 100vw;
+    height: 50px;
+    padding-inline:70px;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 1.4rem;
+}
+.socialbox a{
+    color: white;
+}
+.socialbox a:hover{
+    color: white;
+}
+/*end soical box */
+
+/* main contect*/
+
+/* about me */
+.infoAboutMe{
+    margin-top:100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw ;
+    padding-inline: 50px ;
+}
+
+/* programming languages */
+.programmingLanguages{
+    text-align: center;
+    margin-top: 80px;
+    width: 100vw;
+}
+.Picons{
+    margin-top: 30px;
+    width: 100vw;
+    padding-inline: 20px ;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+.Picons div{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+/* otherBoxes*/
+.otherBox{
+    text-align: center;
+    margin-top: 195px;
+    width: 100vw;
+}
+.subBox{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+.subBox div{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* series box */
+.seriesBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+}
+.seriesBox div h5{
+    border-bottom: solid gray 2px;
+    padding-bottom: 10px;
+}
+.seosons{
+    overflow-y: scroll;
+    height: 75px;
+    width: 125px;
+}
+.seosons button{
+    width: 100px;
+    background: none;
+    border: none;
+    color: white;
+}
+.seosons button:active {
+    border: none;
+    outline: none;
+}
+
+.seosons button:hover, .seosons button:focus {
+    outline: none;
+    color: green;
+}
+
+
+.episodes{
+    overflow-y: scroll;
+    height: 75px;
+    width: 125px;
+}
+
+.episodes button{
+    width: 100px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.episodes button:hover, .episodes button:focus {
+    cursor: pointer;
+    outline: none;
+    color: yellow;
+}
+
+
