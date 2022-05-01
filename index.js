@@ -6,16 +6,15 @@ $(document).ready(() => {
         
         new Typed('.typing', {
             strings: ["Hey! my name is Sarband scroll down to know more about me"],
-            typeSpeed: 30,
+            typeSpeed: 25,
             onComplete: () =>{
               $(".firstscroll").show();
             }
         });
         
-    }, 5000);
+    }, 2500);
 
   
-    
 });
 
 

@@ -20,7 +20,7 @@
     width: 100vw;
     min-height: 100vh;
     background: #000;
-    animation: fadeOut 2s linear forwards 3s;
+    animation: fadeOut 1s linear forwards 2s;
 }
 
 .loading p {
@@ -36,7 +36,7 @@
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 95%;
-    animation: shine 3s linear forwards;
+    animation: shine 2s linear forwards;
     position: relative;
 }
 

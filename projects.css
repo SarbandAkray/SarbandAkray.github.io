@@ -112,3 +112,15 @@ font-size: 24px;
 .slide{
     height: 220px;
 }
+
+
+/* button no outline */
+.smallprojects button:hover ,.smallprojects button:active ,.smallprojects button:focus{
+    outline: none;
+    border: none;
+}
+.bigprojects button:hover ,.bigprojects button:active ,.bigprojects button:focus{
+    outline: none;
+    border: none;
+}
+
