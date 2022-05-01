@@ -64,7 +64,7 @@
 
     body{
         background-color: black !important;
-        overflow: none !important;
+        overflow: hidden;
     }
     /* navbar style */
     .navigation{
