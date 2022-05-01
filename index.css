@@ -64,7 +64,7 @@
 
     body{
         background-color: black !important;
-        overflow: none;
+        overflow: none !important;
     }
     /* navbar style */
     .navigation{
@@ -172,7 +172,7 @@
        overflow-y: scroll;
        height: 100vh;
        scroll-behavior: smooth;
-       overflow-x: hidden;
+       overflow-x: none !important;
     }
     section{
         height: 100vh !important;
