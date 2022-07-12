@@ -13,8 +13,8 @@ $(document).ready(()=> {
     for (let index = 1; index <9 ; index++) {
         $("#episodes1").append("<button value='"+index+"'>episode "+index+"</button>");
     }
-    $("#FBI").attr("src","https://www.2embed.ru/embed/tmdb/tv?id=80748&s="+s+"&e="+ep+"");
-    $("#SE").attr("src","https://www.2embed.ru/embed/tmdb/tv?id=81356&s="+s1+"&e="+ep1+"");
+    $("#FBI").attr("src","https://www.2embed.to/embed/tmdb/tv?id=80748&s="+s+"&e="+ep+"");
+    $("#SE").attr("src","https://www.2embed.to/embed/tmdb/tv?id=81356&s="+s1+"&e="+ep1+"");
 });
 
 //title animation
@@ -34,11 +34,11 @@ anime({
 
 // FBI
 $("#episodes").on('click', (e)=> {
-    $("#FBI").attr("src","https://www.2embed.ru/embed/tmdb/tv?id=80748&s="+s+"&e="+e.target.value+"");
+    $("#FBI").attr("src","https://www.2embed.to/embed/tmdb/tv?id=80748&s="+s+"&e="+e.target.value+"");
 
 });
 $("#seasons").on('click', (e)=> {
-    $("#FBI").attr("src","https://www.2embed.ru/embed/tmdb/tv?id=80748&s="+e.target.value+"&e=1");
+    $("#FBI").attr("src","https://www.2embed.to/embed/tmdb/tv?id=80748&s="+e.target.value+"&e=1");
     s = e.target.value;
     $('#episodes')
     .find('button')
@@ -65,11 +65,11 @@ $("#seasons").on('click', (e)=> {
 
 //SE
 $("#episodes1").on('click', (e)=> {
-    $("#SE").attr("src","https://www.2embed.ru/embed/tmdb/tv?id=81356&s="+s1+"&e="+e.target.value+"");
+    $("#SE").attr("src","https://www.2embed.to/embed/tmdb/tv?id=81356&s="+s1+"&e="+e.target.value+"");
 
 });
 $("#seasons1").on('click', (e)=> {
-    $("#SE").attr("src","https://www.2embed.ru/embed/tmdb/tv?id=81356&s="+e.target.value+"&e=1");
+    $("#SE").attr("src","https://www.2embed.to/embed/tmdb/tv?id=81356&s="+e.target.value+"&e=1");
     s1 = e.target.value;
     $('#episodes1')
     .find('button')
